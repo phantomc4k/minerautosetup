@@ -10,7 +10,7 @@ output1=str(output1)
 name= output1.split(".")[3]
 name=name[0:3]
 print("hostnamectl set-hostname miner"+name)
-#os.system("hostnamectl set-hostname miner"+name)
+os.system("hostnamectl set-hostname miner"+name)
 
 while True:
     sleep(10)
